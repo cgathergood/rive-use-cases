@@ -1,0 +1,16 @@
+{
+  "name": "rive-google-ads-parcel",
+  "private": true,
+  "version": "0.1.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps --public-url ./"
+  },
+  "dependencies": {
+    "@rive-app/canvas-single": "^2.30.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.0"
+  }
+}

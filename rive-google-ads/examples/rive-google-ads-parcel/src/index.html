@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="ad.size" content="width=320,height=480">
+    <title>Rive Canvas Ad Single</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #000000;
+      }
+      #container {
+        aspect-ratio: 320 / 480;
+        max-height: 100vh;
+        margin: 0 auto;
+        background: #000000;
+      }
+      canvas {
+        height: 100%;
+        width: 100%;
+        background: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="riveCanvas"></canvas>
+    </div>
+    <script type="module" src="./index.ts"></script>
+  </body>
+</html>
