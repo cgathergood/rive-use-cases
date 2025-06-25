@@ -8,7 +8,7 @@ const DisneyFile = new URL("/assets/disney.riv", import.meta.url);
 const layout = new Layout({
   fit: Fit.Layout, // Change to: rive.Fit.Contain, or Cover
   // alignment: Alignment.Center,
-  layoutScaleFactor: 2,
+  // layoutScaleFactor: 2,
 });
 
 // ---------------------------------
