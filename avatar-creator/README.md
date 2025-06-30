@@ -5,10 +5,12 @@ This folder contains an example that demonstrates how to create an interactive a
 See this [video playlist](https://www.youtube.com/playlist?list=PLujDTZWVDSsFdHbrnBCqLZ5aAb5o2HrIP) for tutorials on how to build this animation and integrate it on the listed platforms.
 
 ### Platforms (Code Samples)
+
 - Web (React): [code](react/), [video tutorial](https://youtu.be/Qr7Ng6fpqnk?si=1subLGm1n1FQnY5B)
 
-See the [Rive documentation](https://help.rive.app/runtimes/overview) for additional runtime information.
+See the [Rive documentation](https://rive.app/docs/runtimes/getting-started) for additional runtime information.
 
 ### Other Use Cases
+
 - See the [Rive Use Cases page](https://rive.app/use-cases) for more examples
 - Additional code resources can be found at the [root repository](https://github.com/rive-app/rive-use-cases/)
