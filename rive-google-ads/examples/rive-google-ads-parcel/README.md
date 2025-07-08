@@ -13,6 +13,7 @@ To ensure compatibility:
 3. Avoid clipping masks that clip the artboard
 4. Test your ad on a real device
 5. Keep your total ad size (including .wasm, .js, .riv, and .html) under 1 MB
+6. Google does not allow you to reference exteral assets or code
 
 ## Getting Started
 
