@@ -1,4 +1,4 @@
-async function deviceOrientationSupported() {
+async function isDeviceOrientationSupported() {
   if (
     typeof DeviceOrientationEvent !== 'undefined' &&
     typeof (DeviceOrientationEvent as any).requestPermission === 'function'
@@ -25,4 +25,4 @@ async function deviceOrientationSupported() {
   }
 }
 
-export { deviceOrientationSupported }
+export { isDeviceOrientationSupported }
