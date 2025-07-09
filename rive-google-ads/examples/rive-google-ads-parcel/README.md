@@ -13,7 +13,7 @@ To ensure compatibility:
 3. Avoid clipping masks that clip the artboard
 4. Test your ad on a real device
 5. Keep your total ad size (including .wasm, .js, .riv, and .html) under 1 MB
-6. Google does not allow you to reference exteral assets or code
+6. Google does not allow you to reference external assets or code. Everything should be included in the uploaded zip file to Google, and a root relative path should be used to reference assets.
 
 ## Getting Started
 
