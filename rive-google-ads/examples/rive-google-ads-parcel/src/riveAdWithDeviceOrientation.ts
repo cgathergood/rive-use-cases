@@ -1,3 +1,6 @@
+// IMPORTANT: Device Orientation is NOT supported for iOS ads!
+// It may work on certain Android devices, but it is not guaranteed so include fallback functionality.
+
 import { Rive, Fit, Layout, RuntimeLoader } from '@rive-app/webgl2'
 import { isDeviceOrientationSupported } from './utils/isDeviceOrientationSupported'
 
