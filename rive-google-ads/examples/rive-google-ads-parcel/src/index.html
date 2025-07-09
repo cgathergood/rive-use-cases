@@ -8,19 +8,35 @@
     <style>
       html, body {
         margin: 0;
-        padding: 0;
         overflow: hidden;
-        background: #000000;
+        background: #e7e7e7;
+      }
+      .container {
+        height: 100dvh;
+        width: calc(100dvw - 64px);
+        padding: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       canvas {
-        height: 100vh;
-        width: 100vw;
+        width: 100%;
+        height: 100%;
+        max-width: 1400px;
+        max-height: 1400px;
         background: #000000;
       }
     </style>
   </head>
   <body>
-    <canvas id="riveCanvas"></canvas>
-    <script type="module" src="./index.ts"></script>
+    <div class="container">
+      <canvas id="riveCanvas"></canvas>
+    </div>
+    <!--
+      There are 2 examples - a basic Rive file and one that listens for the device rotation (Android only)
+      Comment out the one you don't want to use.
+    -->
+    <!-- <script type="module" src="./basicRiveAd.ts"></script> -->
+    <script type="module" src="./riveAdWithDeviceOrientation.ts"></script>
   </body>
 </html>

@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build --no-source-maps --public-url ./"
+    "start": "rm -rf dist .parcel-cache && parcel",
+    "build": "rm -rf dist .parcel-cache && parcel build --no-source-maps --public-url ./"
   },
   "dependencies": {
-    "@rive-app/canvas-single": "^2.30.0"
+    "@rive-app/webgl2": "^2.30.1"
   },
   "devDependencies": {
     "parcel": "^2.14.0"

@@ -4,23 +4,23 @@ This folder contains a number of different runtime use cases that demonstrate ev
 
 See the [Rive Use Cases page](https://rive.app/use-cases) for more examples. For more inspiration, see [awesome-rive](https://github.com/rive-app/awesome-rive), a repository dedicated to amazing things created with Rive.
 
-### Google Ads
+## Google Ads
 
 - [Code](rive-google-ads)
 
-### Pull To Refresh
+## Pull To Refresh
 
 https://github.com/rive-app/rive-use-cases/assets/13705472/92de6f68-2c09-4df2-be23-dbb87ea1e8b6
 
 - [Code](pull-to-refresh)
 - [Tutorials](https://rive.app/use-cases/pull-to-refresh)
 
-### Avatar Creator
+## Avatar Creator
 
 - [Code](avatar-creator)
 - [Tutorials](https://rive.app/use-cases/avatar-creator-tutorial)
 
-### Hero Animation
+## Hero Animation
 
 - [Code](hero-animation)
 - [Tutorials](https://rive.app/use-cases/hero-animations)
