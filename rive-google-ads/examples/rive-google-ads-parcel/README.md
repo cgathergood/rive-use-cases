@@ -9,7 +9,7 @@ Google App Ads are displayed inside a WebView in Android or iOS apps. WebViews a
 To ensure compatibility:
 
 1. Follow Rive's [best practices guidelines](https://rive.app/docs/getting-started/best-practices)
-2. Avoid blend modes
+2. Avoid excessive blend modes
 3. Avoid clipping masks that clip the artboard
 4. Test your ad on a real device
 5. Keep your total ad size (including .wasm, .js, .riv, and .html) under 1 MB
