@@ -12,8 +12,8 @@ A complete example demonstrating how to use [Parcel](https://parceljs.org/) to b
 
 **Features:**
 
+- Proper ad sizing with responsive layout
 - Runtime: Using the \*single variant of Rive's web runtime which bundles the Rive WASM library into a single JS package
-- Proper ad sizing (320x480) with responsive layout
 - Random graphic selection between multiple Rive files
 - Optimized bundle size for ad delivery
 - Google Ads meta tags and structure
@@ -33,7 +33,7 @@ npm install
 npm run build
 ```
 
-The built files in `dist/` can be zipped up and uploaded to Google.
+The built files in `dist/` can be zipped up and uploaded to Google as an HTML5 ad.
 
 **Testing Locally:**
 
@@ -45,11 +45,18 @@ npm run start
 
 #### Important Notes
 
-⚠️ **Clean Build Required**: Before each build, manually delete the `dist/` folder to ensure a clean build. This prevents stale files from previous builds being included in your final bundle.
-
 ⚠️ **No Source Maps**: To reduce the size of the `dist` folder we pass `--no-source-maps` to the build process.
 
 ⚠️ **Root relative assets**: Assets (`.js/.ts` and `.riv` files) need to be root relative to be discoverable. We pass `--public-url ./` to the build process to ensure this.
+
+⚠️ **Performance and Feature Limitations:** Google App Ads are displayed inside a WebView in Android or iOS apps. WebViews aren't as powerful as modern browsers, and Google may limit permissions that are normally available elsewhere. To ensure compatibility:
+
+- Follow Rive's [best practices guidelines](https://rive.app/docs/getting-started/best-practices)
+- Avoid excessive blend modes
+- Avoid clipping masks that clip the artboard
+- Test your ad on a real device, preferably using a WebView
+- Keep your total ad size (including .wasm, .js, .riv, and .html) under 1 MB
+- Google does not allow you to reference external assets or code. Everything should be included in the uploaded zip file to Google, and a root relative path should be used to reference assets.
 
 ## Resources
 
