@@ -1,14 +1,14 @@
 import { Rive, Fit, Layout, RuntimeLoader } from '@rive-app/webgl2'
 
 // Add your .riv file to the assets folder and update the name below
-const AdFile = new URL('/assets/wc_op.riv', import.meta.url)
+const AdFile = new URL('/assets/cal_update.riv', import.meta.url)
 // const AdFile = new URL('/assets/sniffr-googlead-v3.riv', import.meta.url)
 // This is the name of the state machine in the Rive file that we want to control
 const stateMachineName = 'State Machine 1'
 // This is how the Rive artboard should fit in the canvas (Fit.Layout is recommended for ads)
 const fitType = Fit.Layout
 // If you're using Fit.Layout, you can set a scale factor to adjust the size of the Rive artboard in the canvas
-const layoutScaleFactor = 2
+const layoutScaleFactor = 1
 
 // -----------------------------------------------------
 // You shouldn't need to change anything below this line
